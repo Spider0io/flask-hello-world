@@ -16,3 +16,7 @@ def hello_world():
 # start the development server using the run() method
 if __name__ == "__main__":
     app.run()
+# dynamic route
+@app.route("/test")
+def search():
+    return "hello"
